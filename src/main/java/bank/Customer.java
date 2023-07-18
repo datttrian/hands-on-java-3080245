@@ -1,6 +1,7 @@
 package bank;
 
 public class Customer {
+
   private int id;
   private String name;
   private String username;
@@ -12,6 +13,7 @@ public class Customer {
     setName(name);
     setUsername(username);
     setPassword(password);
+    setAccountId(accountId);
   }
 
   public int getId() {
